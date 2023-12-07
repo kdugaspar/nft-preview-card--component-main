@@ -1,1 +1,33 @@
 @charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+body{
+    background-color:#0d192b;
+}
+
+main{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+min-height: 100vh; 
+
+}
+
+article{
+background-color: #14253d;
+border-radius: 1.4rem;
+border-bottom: 2px;
+
+border: 13px solid #14253d;
+border-bottom: 40px solid #14253d;
+}
+.equilibrium{
+    width: 30rem;
+    border-radius: 1rem;
+}
