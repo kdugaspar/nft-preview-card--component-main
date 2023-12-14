@@ -1,33 +1,110 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Outfit:wght@300;400;600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
-body{
-    background-color:#0d192b;
+body {
+    background-color: #0d192b;
 }
 
-main{
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: #14253d;
+    border-radius: 1.4rem;
+    border: 29px solid #14253d;
+    border-bottom: 2rem solid #14253d;
+    width: 31.2rem;
+}
+
+.equilibrium {
+    width: 31rem;
+    border-radius: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    
+}
+
+p {
+
+    font-size: 1.8rem;
+    color: #8bacda;
+    
+}
+
+.bloco-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.bloco4-01{
 display: flex;
 flex-direction: row;
-justify-content: center;
 align-items: center;
-min-height: 100vh; 
+font-size:2rem;
+
+color: #00FFF8;
+}
+.icone4-01{
 
 }
-
-article{
-background-color: #14253d;
-border-radius: 1.4rem;
-border-bottom: 2px;
-
-border: 13px solid #14253d;
-border-bottom: 40px solid #14253d;
+.bloco4-02{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2rem;
+    color: #8bacda;
 }
-.equilibrium{
-    width: 30rem;
-    border-radius: 1rem;
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 15px;
+    height: 5rem;
+    
+    border-top: 1px solid #8bacda34;    
+}
+.texto-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #8bacda;
+}
+.sesao-ropade{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.texto-branco-rodape{
+    font-size: 1.8rem;
+    color: white;
+}
+.personagem{
+    width: 3rem;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
 }
