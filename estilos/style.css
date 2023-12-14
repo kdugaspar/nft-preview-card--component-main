@@ -62,8 +62,8 @@ p {
 display: flex;
 flex-direction: row;
 align-items: center;
-font-size:2rem;
-
+font-size:1.8rem;
+font-weight:600;
 color: #00FFF8;
 }
 .icone4-01{
