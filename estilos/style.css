@@ -31,7 +31,7 @@ article {
     background-color: #14253d;
     border-radius: 1.4rem;
     border: 25px solid #14253d;
-    border-bottom: 3rem solid #14253d;
+    border-bottom: 3.5rem solid #14253d;
     width: 31.2rem;
     
 }
@@ -51,6 +51,8 @@ p {
 
     font-size: 1.8rem;
     color: #8bacda;
+    background-color: rgba(255, 0, 0, 0);
+    height: 5.3rem;
     
 }
 
